@@ -95,7 +95,7 @@ export default function Home() {
           <p>
             Click record to start recording your thoughts. Click the button again to stop recording.
             The app will transcribe your thoughts and allow you to correct proper nouns in the transcription, if applicable.
-            Persons are highlighted in
+            Persons are highlighted in{" "}
             <span className="bg-gradient-to-r from-blue-800 to-cyan-600 dark:from-blue-400 dark:to-indigo-300 bg-clip-text text-transparent">blue</span>,
             places in <span className="bg-gradient-to-r from-green-800 to-teal-600 dark:from-green-400 dark:to-teal-300 bg-clip-text text-transparent">green</span>,
             companies in <span className="bg-gradient-to-r from-purple-800 to-fuchsia-600 dark:from-purple-400 dark:to-fuchsia-300 bg-clip-text text-transparent">purple</span>,
