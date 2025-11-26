@@ -1,11 +1,11 @@
 # noteable.ai
 
-A dictation application with proper noun recognition and correction. Record your thoughts, and the app will transcribe them while identifying and highlighting proper nouns (names, places, companies, brands) for easy correction.
+A dictation application with proper noun recognition and correction. Record your thoughts, and the app will transcribe them while identifying and highlighting proper nouns (names, places, companies, brands) for easy correction and improved future suggestions.
 
 ## Features
 
 - **Voice Recording**: Record audio directly in the browser
-- **Speech-to-Text**: Transcription powered by Open Whisper Large V3 model
+- **Speech-to-Text**: Transcription powered by OpenAI Whisper Large V3 model
 - **Proper Noun Detection**: AI-powered identification of proper nouns using Claude
 - **Smart Corrections**: Click on highlighted proper nouns to see suggested corrections or enter custom ones
 - **Learning System**: The app remembers your corrections and uses them to improve future suggestions
@@ -33,7 +33,7 @@ A dictation application with proper noun recognition and correction. Record your
 - **State Management**: TanStack React Query
 - **Validation**: Zod for runtime type validation
 - **APIs**:
-  - [Groq](https://groq.com/) - Speech-to-text (Whisper Large V3)
+  - [Groq](https://groq.com/) - Speech-to-text (OpenAI Whisper Large V3)
   - [Anthropic](https://anthropic.com/) - Proper noun analysis (Claude)
 
 ## Project Structure
@@ -70,7 +70,7 @@ notable-ai/
 ## Getting Started
 
 ### Production
-- You can test this now on [https://notable-ai.vercel.app/]https://notable-ai.vercel.app/
+- You can test this now on [https://notable-ai.vercel.app/](https://notable-ai.vercel.app/)
 
 ### Prerequisites for localdev
 
@@ -130,7 +130,7 @@ The main recording interface. Click the microphone button to record, click again
 View all saved notes in a card grid. Each note displays the transcribed text with a delete button.
 
 ### Proper Noun Corrections (`/proper-nouns`)
-View all corrections you've made. These corrections are automatically included in future transcription requests to improve accuracy.
+View all corrections you've made. These corrections are automatically included in future transcription requests to improve suggestion accuracy.
 
 ## Key Components
 
